@@ -6,10 +6,10 @@ This is just a small project to help me learn Typescript
 
 This project assumes you have gulp installed globally.
 
-1. git clone
-2. npm install
-3. gulp
-4. npm start
+1. Run 'git clone', then cd into that dir
+2. Run 'npm install'
+3. Run 'gulp typescript'
+4. Run 'npm start'
 5. Open browser to localhost:3000
 
 ## Controls
