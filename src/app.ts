@@ -2,7 +2,7 @@ import $ = require('jquery');
 
 $(() => {
   // CONFIG
-  const gameSpeed: number = 30;
+  const gameSpeed: number = 15;
   const aiSpeed: number = 7;
 
   // colors
@@ -155,7 +155,7 @@ $(() => {
   // Paddles & Ball
   let p1 = new Paddle({x:leftBound + 50, y: topBound + 100}, pWidth, pHeight, p1Position, green)
   let p2 = new Paddle({x: rightBound - (50 + pWidth), y: bottomBound - (100 + pHeight)}, pWidth, pHeight, p2Position, red)
-  let ball = new Ball(initialBallPosition, bWidth, bHeight, 10, 10, white)
+  let ball = new Ball(initialBallPosition, bWidth, bHeight, 5, 5, white)
 
   function drawWorld(p1Position: Point, p2Position: Point, bPosition: Point): void {
     // draw background

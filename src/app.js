@@ -1,7 +1,7 @@
 "use strict";
 var $ = require("jquery");
 $(function () {
-    var gameSpeed = 30;
+    var gameSpeed = 15;
     var aiSpeed = 7;
     var green = "#2f1";
     var red = "#f21";
@@ -121,7 +121,7 @@ $(function () {
     }());
     var p1 = new Paddle({ x: leftBound + 50, y: topBound + 100 }, pWidth, pHeight, p1Position, green);
     var p2 = new Paddle({ x: rightBound - (50 + pWidth), y: bottomBound - (100 + pHeight) }, pWidth, pHeight, p2Position, red);
-    var ball = new Ball(initialBallPosition, bWidth, bHeight, 10, 10, white);
+    var ball = new Ball(initialBallPosition, bWidth, bHeight, 5, 5, white);
     function drawWorld(p1Position, p2Position, bPosition) {
         ctx.fillStyle = black;
         ctx.fillRect(0, 0, canvas.width, canvas.height);

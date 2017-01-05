@@ -11,7 +11,9 @@
     "pong",
     "arcade",
     "game",
-    "typescript"
+    "typescript",
+    "canvas",
+    "HTML5"
   ],
   "author": "Aaron Burdick",
   "license": "MIT",
